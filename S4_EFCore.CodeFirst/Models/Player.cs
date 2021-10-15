@@ -21,6 +21,7 @@ namespace S4_EFCore.CodeFirst.Models
         public bool Status { get; set; }
         
         public int SoccerPositionId { get; set; }
+        //Relacion de 1 sobre SoccerPosition
         public virtual SoccerPosition SoccerPosition { get; set; }
 
     }

@@ -18,6 +18,7 @@ namespace S4_EFCore.CodeFirst.Models
         [Column(TypeName = "nvarchar(2)")]
         public string Code { get; set; }
 
+        //Relacion de mucho sobre player
         public virtual List<Player> Player { get; set; }
     }
 }

@@ -20,6 +20,8 @@ namespace S4_EFCore.CodeFirst
             //};
 
             //context.SoccerPosition.Add(position);
+            
+            //Confirmacion del guardado
             //context.SaveChanges();
 
             var position1 = new SoccerPosition()
