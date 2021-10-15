@@ -19,6 +19,9 @@ namespace S4_EFCore.CodeFirst.Models
         public int Dorsal { get; set; }
         [Column(TypeName ="bit")]
         public bool Status { get; set; }
+        
+        public int SoccerPositionId { get; set; }
+        public virtual SoccerPosition SoccerPosition { get; set; }
 
     }
 }

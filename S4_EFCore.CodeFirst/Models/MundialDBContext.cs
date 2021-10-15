@@ -26,6 +26,6 @@ namespace S4_EFCore.CodeFirst.Models
         }
 
         public virtual DbSet<Player> Player { get; set; }
-
+        public virtual DbSet<SoccerPosition> SoccerPosition { get; set; }
     }
 }
